@@ -16,5 +16,5 @@ body = JSON.stringify(obj);
 $done(body);
 */
 
-body = $response.body.replace(/vip':\d /g, 'vip':0');
+body = $response.body.replace(/vip':1' /g, 'vip':0');
 $done({body});
