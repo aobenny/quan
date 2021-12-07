@@ -6,6 +6,7 @@
 hostname:bmall.camera360.com
 */
 
+/*
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
@@ -13,3 +14,7 @@ obj.items.vip = 0;
 
 body = JSON.stringify(obj); 
 $done(body);
+*/
+
+body = $response.body.replace(/vip':\d /g, 'vip':0');
+$done({body});
