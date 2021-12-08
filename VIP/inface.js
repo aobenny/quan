@@ -6,8 +6,8 @@
 hostname:bmall.camera360.com
 */
 
-var body = $response.body; 
-var obj = JSON.parse(body); 
+//var body = $response.body; 
+//var obj = JSON.parse(body); 
 
 function key() {
  var obj = JSON.parse($response.body);
@@ -34,5 +34,5 @@ function key() {
 //key("subscribed@subscriptionStatus@eligibleForFreeTrial", [true, "YEARLY_SUBSCRIBED", true])
 key("vip", [0])
 
-body = JSON.stringify(obj); 
-$done(body);
+//body = JSON.stringify(obj); 
+//$done(body);
