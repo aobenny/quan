@@ -30,6 +30,8 @@ function key() {
  }
  $done({body:JSON.stringify(obj)});
 }
+};
+}
 // 最终只需用户在结尾按格式录入key("键1@键2……", [值1，值2……])
 //key("subscribed@subscriptionStatus@eligibleForFreeTrial", [true, "YEARLY_SUBSCRIBED", true])
 key("vip", [0])
