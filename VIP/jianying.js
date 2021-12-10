@@ -25,7 +25,7 @@ obj.data.has_purchased=true,
 obj.data.total_money=9999;
 obj.data.current_money=9999;
 obj.data.can_buy_template_free=true
-obj.response="{\"user_id\":12848796284315,\"total_money\":0,\"current_money\":0,\"currency_code\":\"CNY\",\"latest_record_time\":0,\"can_buy_template_free\":true}";
+obj.response="{\"user_id\":12848796284315,\"total_money\":9999,\"current_money\":9999,\"currency_code\":\"CNY\",\"latest_record_time\":0,\"can_buy_template_free\":true}";
 
 body = JSON.stringify(obj); 
 $done(body);
