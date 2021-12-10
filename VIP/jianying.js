@@ -18,6 +18,10 @@ $done({body});
 var body = $response.body; 
 var obj = JSON.parse(body); 
 
+
+obj.data.has_purchased=true,
+
+
 obj.data.total_money=9999;
 obj.data.current_money=9999;
 obj.data.can_buy_template_free=true
